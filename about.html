@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>About Us</title>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div><h2>KavitaKiKavita</h2></div>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="poems.html">POEMS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>A breif About Us </h1>
+                <p>Here we are providing you articles on some recent or important topics and plus we are providing you some of our poems. So Explore Us to Know More and read out our articles and poems
+                     .Also mail us your reviews and messages on kavitapant1309@gmail.com.</p>
+                <a href="articles.html" class="ctn">Read Our Articles</a>
+                <a href="poems.html" class="ctn">Read Our Poems</a>
+            </div>
+            <div class="about-col">
+                <img src="images/kp.jpg">
+            </div>
+        </div>
+    </section>
+    <!----------About Us--------------->
+  <div class="hero">
+    <div class="btn-box">
+
+      <button id="btn1" onclick="openMission()">Our Goals</button>
+      <button id="btn2" onclick="openVision()">Our Articles</button>
+      <button id="btn3" onclick="openValues()">Our Poems</button>
+    </div>
+    <div id="content1" class="contents">
+      <div class="content-left">
+        <h1>Our Goal</h1>
+        <p>Our goal is to provide informative articles and beautiful poems.
+            There is a saying that "a pen or a piece of paper can change the world".
+            Here I am trying to make a small revolution through my articles and poems.</p>
+      </div>
+      <div class="content-right">
+        <img src="images/miss.webp">
+      </div>
+    </div>
+    <div id="content2" class="contents">
+      <div class="content-left">
+        <h1>Our Articles</h1>
+        <p>Our Articles consists of some social topics like One Nation One Election,Fundamental rights vs Fundamental Duties
+            and some are written based on my inner feelings like Janta Curfew , Phases of Lockdown ,A Letter to Dear India etc.
+            Hope you all will love our Content !!
+        </p>
+      </div>
+      <div class="content-right">
+        <img src="images/viss.webp">
+      </div>
+    </div>
+    <div id="content3" class="contents">
+      <div class="content-left">
+        <h1>Our Poems</h1>
+        <p>" Poetry is when an emotion has found its thought and the thought has found words".<br>
+            - Robert Frost<br>
+            Our Poems are written based on my emotions and thoughts.The collection consists of poems such as Vriksh ki yatra,
+            Tafhteesh, Dhairya etc.
+        </p>
+      </div>
+      <div class="content-right">
+        <img src="images/values.webp">
+      </div>
+    </div>
+  </div>
+  <section class="review">
+    <h1>Thank You for Visiting.<br>Please give us your review and feedback here.</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hello Readers ,<br>I am Kavita Pant ,20 years old,creator of this website.I am writing these articles and poems from the age of 13.<br>
+        I love writing poems and articles because through this I can express my views or my thoughts on some particular topic.<br>At this young age 
+        I want to channelize my energy and thoughts in a right direction and I believe this is the path which I am looking for it.
+ <br> My main motto is to keep my readers updated and entertained through my articles and poems.</p>
+ <div class="icons">
+     <i class="fab fa-facebook"></i>
+     <i class="fab fa-twitter"></i>
+     <i class="fab fa-instagram"></i>
+     <i class="fab fa-linkedin"></i>
+ </div>
+    </section>
+ <div class="copyright">
+    <p>Copyright @2022 | KavitaPant All Rights Reserved | Haldwani , Nainital | Uttarakhand , INDIA </p>
+</div>
+    
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var btn3 = document.getElementById("btn3");
+    
+        function openMission() {
+          content1.style.transform = "translateX(0)";
+          content2.style.transform = "translateX(100%)";
+          content3.style.transform = "translateX(100%)";
+          btn1.style.color = "red";
+          btn2.style.color = "black";
+          btn3.style.color = "black";
+          content1.style.transitionDelay = "0.3s";
+          content2.style.transitionDelay = "0s";
+          content3.style.transitionDelay = "0s";
+        }
+        function openVision() {
+          content1.style.transform = "translateX(100%)";
+          content2.style.transform = "translateX(0)";
+          content3.style.transform = "translateX(100%)";
+          btn1.style.color = "black";
+          btn2.style.color = "red";
+          btn3.style.color = "black";
+          content1.style.transitionDelay = "0s";
+          content2.style.transitionDelay = "0.3s";
+          content3.style.transitionDelay = "0s";
+        }
+        function openValues() {
+          content1.style.transform = "translateX(100%)";
+          content2.style.transform = "translateX(100%)";
+          content3.style.transform = "translateX(0)";
+          btn1.style.color = "black";
+          btn2.style.color = "black";
+          btn3.style.color = "red";
+          content1.style.transitionDelay = "0s";
+          content2.style.transitionDelay = "0s";
+          content3.style.transitionDelay = "0.3s";
+        }
+      </script>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
